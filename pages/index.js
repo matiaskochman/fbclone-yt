@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from './components/Header'
 import Login from './components/Login'
-
+import SideBar from './components/SideBar'
 export default function Home({session}) {
 
   
@@ -15,7 +15,7 @@ export default function Home({session}) {
 
       <Header/>
 
-      <main>
+      <main className="flex">
         {/* Sidebar */}
         <SideBar />
         {/* Feed */}
